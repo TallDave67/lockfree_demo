@@ -9,9 +9,13 @@ How Compare Exchange Will Become Your New Best Friend
 
 Runs successfully with these OS + Compiler combinations:
 
-- OS: Windows 10 Home 20H2 19042.1348
+- Windows 10 Home 20H2 19042.1348
 
-  Compiler: Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30136 for x64
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30136 for x64
+  
+- Pop!_OS 21.04 (like "ubuntu debian")
+
+  gcc (Ubuntu 10.3.0-1ubuntu1) 10.3.0
   
 ## General
 
