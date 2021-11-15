@@ -8,6 +8,7 @@
 #include <numeric>
 #include <thread>
 #include <vector>
+#include <array>
 
 namespace {
 
