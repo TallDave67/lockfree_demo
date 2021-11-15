@@ -5,18 +5,6 @@ Contains code presented at Meeting C++ 2021
 Lock-free Programming for Real-Time Systems
 How Compare Exchange Will Become Your New Best Friend
 
-## TallDave67 fork
-
-Runs successfully with these OS + Compiler combinations:
-
-- Windows 10 Home 20H2 19042.1348
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30136 for x64
-  
-- Pop!_OS 21.04 (like "ubuntu debian")
-
-  gcc (Ubuntu 10.3.0-1ubuntu1) 10.3.0
-  
 ## General
 
 Showcase basic usage of compare_exchange in C++ (CAS loop)
@@ -84,3 +72,15 @@ https://github.com/eclipse-iceoryx/iceoryx/tree/master/iceoryx_hoofs/include/ice
 there are highly-specialized lock-free queue implementations.They do not use exceptions nor dynamic memory in any way, but this also leads to restrictions.
 
 We can also find an alternative to std::optional in https://github.com/eclipse-iceoryx/iceoryx/blob/master/iceoryx_hoofs/include/iceoryx_hoofs/cxx/optional.hpp which does not use dynamic memory. This can be used to arrive at a truly lock-free implementation of the ExchangeBUffer.
+
+## TallDave67 fork
+
+Runs successfully with these OS + Compiler combinations:
+
+- Windows 10 Home 20H2 19042.1348
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30136 for x64
+  
+- Pop!_OS 21.04 (like "ubuntu debian")
+
+  gcc (Ubuntu 10.3.0-1ubuntu1) 10.3.0
