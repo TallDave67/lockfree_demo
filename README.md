@@ -10,6 +10,7 @@ How Compare Exchange Will Become Your New Best Friend
 Runs successfully with these OS + Compiler combinations:
 
 - OS: Windows 10 Home 20H2 19042.1348
+
   Compiler: Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30136 for x64
   
 ## General
