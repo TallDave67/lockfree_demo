@@ -4,6 +4,14 @@ Contains code presented at Meeting C++ 2021
 
 Lock-free Programming for Real-Time Systems
 How Compare Exchange Will Become Your New Best Friend
+
+## TallDave67 fork
+
+Runs successfully with these OS + Compiler combinations:
+
+- OS: Windows 10 Home 20H2 19042.1348
+  Compiler: Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30136 for x64
+  
 ## General
 
 Showcase basic usage of compare_exchange in C++ (CAS loop)
